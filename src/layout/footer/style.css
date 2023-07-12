@@ -12,3 +12,8 @@
   display: flex;
   margin-block-start: var(--pds-spacing-2xs);
 }
+
+.pds-docs-footer {
+  background-color: #23232d;
+  color: white;
+}

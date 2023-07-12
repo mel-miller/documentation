@@ -35,7 +35,22 @@ const Footer = ({ data }) => {
             </div>
           </div>
         </div>
-        <footer role="contentinfo" className="pds-docs-footer"></footer>
+        <footer role="contentinfo" className="pds-docs-footer">
+          <div className="pds-container pds-container--docs pds-grid">
+            <div className="pds-grid-item pds-grid-item--sm-4 pds-grid-item--md-3 pds-grid-item--lg-3">
+              <div className="footer-menu-header">Topics</div>
+            </div>
+            <div className="pds-grid-item pds-grid-item--sm-4 pds-grid-item--md-3 pds-grid-item--lg-3">
+              <div className="footer-menu-header">Help</div>
+            </div>
+            <div className="pds-grid-item pds-grid-item--sm-4 pds-grid-item--md-3 pds-grid-item--lg-3">
+              <div className="footer-menu-header">Community</div>
+            </div>
+            <div className="pds-grid-item pds-grid-item--sm-4 pds-grid-item--md-3 pds-grid-item--lg-3">
+              <div className="footer-menu-header">Monthly Insights</div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   )

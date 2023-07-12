@@ -4,3 +4,17 @@
 @import "../../../source/docs/assets/fonts/pan-docs-icons/css/pan-docs.css";
 @import "../../../source/docs/assets/fonts/MyFontsWebfontsKit/MyFontsWebfontsKit.css";
 @import "../../styles/codeBlocks.css";
+
+/* Styles that will eventually come from PDS. */
+.pds-container {
+  max-width: 1200px;
+  padding-inline-start: var(--pds-container-marketing-padding-small);
+  padding-inline-end: var(--pds-container-marketing-padding-small);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+
+  @media (--breakpoint-m) {
+    padding-inline-start: var(--pds-container-marketing-padding-medium-large);
+    padding-inline-end: var(--pds-container-marketing-padding-medium-large);
+  }
+}
